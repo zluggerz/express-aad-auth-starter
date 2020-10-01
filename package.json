@@ -1,0 +1,30 @@
+{
+  "name": "express-aad-auth-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-autoprefixer": "^5.4.0",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.6.2",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0",
+    "passport-azure-ad": "^4.3.0",
+    "pug": "2.0.0-beta11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zluggerz/express-aad-auth-starter.git"
+  },
+  "author": "zluggers",
+  "homepage": "https://github.com/zluggerz/express-aad-auth-starter"
+}

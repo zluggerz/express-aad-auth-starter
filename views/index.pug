@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    script.
+        var url = window.location.href;
+        if(url.indexOf("") > -1){
+            $("#home").addClass("active disabled");
+        }
+    h1.text-muted= title
